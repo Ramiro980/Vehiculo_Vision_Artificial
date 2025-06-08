@@ -1,0 +1,80 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body{
+    font-family: "Krona One", serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: transparent;
+    background: url(imgs/background.png) center / cover fixed
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+button {
+    color: white; /* Color del texto */
+    background-color: #002960; /* Fondo azul */
+    padding: 15px 25px; /* Espaciado interno */
+    font-size: 18px; /* Tamaï¿½o del texto */
+    font-family: "Krona One", serif;
+    cursor: pointer; /* Cambia el cursor al pasar encima */
+    transition: background-color 0.3s ease; /* Efecto suave */
+}
+
+button:hover {
+    background-color: #0649a1; /* Color al pasar el cursor */
+}
+
+button:active {
+    background-color: #001F8A; /* Color al hacer clic */
+}
+
+.Titulo{
+    margin: 10px 30px;
+    text-align: center; 
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color: #fff;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+
+.Imagen{
+    margin:10px 15px;
+    width: 50%;
+    max-width: 800px;
+    height: auto;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.slider{
+    margin: 10px 15px;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color: #fff;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.sl{
+    width: 250px;
+    height: 10px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.C.A.V | Panel</title>
+    <link rel="icon" type="image/svg" href="../assets/imgs/favicon.svg">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+    <div class="Titulo">
+        <h1>Ventana de monitoreo</h1>
+    </div>
+
+    <div class="box">
+        <div class="Imagen">
+            <img src="{{url_for('video_feed')}}" alt="Camara de raspberry">
+            <h2>Camara raspberry</h2>
+        </div>
+
+        <div class="Imagen">
+            <img src="https://cdn.robotshop.com/media/r/rpk/rb-rpk-02/img/rplidar-a2-360-laser-scanner-desc1.gif" alt="provicional lidar">
+            <h2>Imagen de lidar</h2>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="slider">
+            <label for="Direc">Control de direccion</label>
+            <input type="range" id="Direc" class="sl" min="0" max="100" value="50">
+        </div>
+
+        <div class="slider">
+            <label for="Tracc">Control de velocidad</label>
+            <input type="range" id="Tracc" class="sl" min="0" max="100" value="50">
+        </div>
+    </div>
+    <div class="box">
+        <button>Control manual</button>
+    </div>
+</body>
+</html>
