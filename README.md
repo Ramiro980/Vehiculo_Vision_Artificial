@@ -229,4 +229,5 @@ Además se usan:
 ## 👤 Autor
 
 Ramiro A. Bustamante A.
+
 Desarrollo de sistemas embebidos y visión artificial con Raspberry Pi
